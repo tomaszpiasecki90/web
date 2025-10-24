@@ -1,0 +1,6 @@
+resources:
+  - ../../base
+nameSuffix: -prod
+images:
+  - name: ghcr.io/<twoje-org>/<twoje-repo>
+    newTag: prod

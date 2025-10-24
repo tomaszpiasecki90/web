@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="pl"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moja wizytówka</title>
+<h1>Witaj 👋</h1>
+<p>To jest wersja: <span id="v"></span></p>
+<script>document.getElementById('v').textContent = (new URLSearchParams(location.search)).get('v')||"dev";</script>
